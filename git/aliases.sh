@@ -1,3 +1,5 @@
 alias gs='git status -sb'
 alias gco='git checkout'
 alias gcam='git commit -am'
+alias gp='git push origin HEAD'
+alias gd='git diff'
