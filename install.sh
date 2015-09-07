@@ -15,8 +15,8 @@ if [ -e $SYS_ALIASES_PATH -a ! -x $SYS_ALIASES_PATH ]; then
 fi
 
 if [ -e $BASH_PROFILE_PATH -a -e $GIT_ALIASES_PATH -a -e $SYS_ALIASES_PATH ]; then
-  echo $GIT_ALIASES_PATH >> $BASH_PROFILE_PATH
-  echo $SYS_ALIASES_PATH >> $BASH_PROFILE_PATH
+  echo 'source '$GIT_ALIASES_PATH >> $BASH_PROFILE_PATH
+  echo 'source '$SYS_ALIASES_PATH >> $BASH_PROFILE_PATH
   source $BASH_PROFILE_PATH
 else
   echo 'One or more files not found. PWD => $DOTFILES_ROOT.'
