@@ -5,6 +5,6 @@ Inspired from dotfiles.github.io
 * Look at the code, to understand how it works
 
 How to Use:
-  * cd <dir>/dotfiles
+  * cd dir/dotfiles
   * sh install.sh
   * restart terminal
