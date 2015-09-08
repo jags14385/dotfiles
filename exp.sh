@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#Place holder code used to spike stuff
 USERNAME=$USER
 DOTFILES_ROOT=$(pwd)
 GIT_ALIASES_PATH=$DOTFILES_ROOT/git/aliases
