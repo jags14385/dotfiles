@@ -8,7 +8,7 @@ check_if_present_in_bash_profile(){
   fi
 }
 
-USERNAME=$USERNAME
+USERNAME=$USER
 DOTFILES_ROOT=$(pwd)
 GIT_ALIASES_PATH=$DOTFILES_ROOT/git/aliases
 SYS_ALIASES_PATH=$DOTFILES_ROOT/sys/aliases
