@@ -13,6 +13,7 @@ DOTFILES_ROOT=$(pwd)
 GIT_ALIASES_PATH=$DOTFILES_ROOT/git/aliases
 SYS_ALIASES_PATH=$DOTFILES_ROOT/sys/aliases
 BASH_PROFILE_PATH='/Users/'$USERNAME'/.bash_profile'
+
 #set bash profile path depending on whether the system is wuindows or *nix .
 CMD='uname -a | grep -i "MINGW" | wc -l'
 op=`eval "$CMD"`
@@ -20,6 +21,7 @@ if [ $op -eq 1 ]; then
   BASH_PROFILE_PATH='/c/Users/'$USERNAME'/.bash_profile'
 fi
 
+#Check existence of aliases file & execution permission
 if [ -e $GIT_ALIASES_PATH -a ! -x $GIT_ALIASES_PATH ]; then
   chmod +x $GIT_ALIASES_PATH
 fi
