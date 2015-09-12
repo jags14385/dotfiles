@@ -7,12 +7,12 @@ Inspired from dotfiles.github.io
 * How to Use:
     ** Copy the code to the .bash_profile /.bashrc
 
-DOTFILES_ROOT=$(pwd)
+Give the appropriate path where one can find the alias files
 
-for DOTFILE in `find ~/code/dotfiles/aliases` 
+for DOTFILE in `find ~/code/dotfiles/aliases`
 
-do 
+do
 
-   [ -f $DOTFILE ] && source $DOTFILE 
+   [ -f $DOTFILE ] && source $DOTFILE
 
-done 
+done
