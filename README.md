@@ -8,7 +8,11 @@ Inspired from dotfiles.github.io
     ** Copy the code to the .bash_profile /.bashrc
 
 DOTFILES_ROOT=$(pwd)
-for DOTFILE in `find ~/code/dotfiles/aliases`
-do
-  [ -f $DOTFILE ] && source $DOTFILE
-done
+
+for DOTFILE in `find ~/code/dotfiles/aliases` 
+
+do 
+
+   [ -f $DOTFILE ] && source $DOTFILE 
+
+done 
