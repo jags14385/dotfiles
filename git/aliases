@@ -1,5 +1,7 @@
 alias gs='git status -sb'
 alias gco='git checkout'
+alias ga='git add'
+alias gcm='git commit -m'
 alias gcam='git commit -am'
 alias gp='git push origin HEAD'
 alias gph='git push heroku HEAD'
