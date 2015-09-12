@@ -10,8 +10,8 @@ check_if_present_in_bash_profile(){
 
 USERNAME=$USER
 DOTFILES_ROOT=$(pwd)
-GIT_ALIASES_PATH=$DOTFILES_ROOT/git/aliases
-SYS_ALIASES_PATH=$DOTFILES_ROOT/sys/aliases
+GIT_ALIASES_PATH=$DOTFILES_ROOT/git-aliases
+SYS_ALIASES_PATH=$DOTFILES_ROOT/sys-aliases
 BASH_PROFILE_PATH='/Users/'$USERNAME'/.bash_profile'
 
 #set bash profile path depending on whether the system is wuindows or *nix .
