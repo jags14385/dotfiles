@@ -1,4 +1,4 @@
-# Create a new directory and enter it
+# Always git pull rebase before pushing to avoid conflicts
 function pull() {
   gpr && gp
 }
