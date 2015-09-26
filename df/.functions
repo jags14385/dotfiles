@@ -2,3 +2,9 @@
 function pull() {
   gpr && gp
 }
+
+#Commit,pull & then push
+function cpp() {
+  gcam "$@"
+  gpr && gp
+}
