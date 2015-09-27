@@ -11,4 +11,4 @@ alias ls='ls -aFl'
 #Repo
 alias fs='foreman start'
 alias cg='cd ~/code/cg'
-alias df='cd ~/code/dotfiles'
+alias .df='cd ~/code/dotfiles'
