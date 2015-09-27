@@ -1,7 +1,4 @@
 alias c='clear'
-alias fs='foreman start'
-alias cg='cd ~/code/cg'
-alias df='cd ~/code/dotfiles'
 alias a='atom'
 alias ah='atom .'
 alias apmup='apm update --no-confirm'
@@ -10,3 +7,8 @@ alias please='sudo'
 alias pp='cat'
 alias bi='brew install'
 alias ls='ls -aFl'
+
+#Repo
+alias fs='foreman start'
+alias cg='cd ~/code/cg'
+alias df='cd ~/code/dotfiles'
