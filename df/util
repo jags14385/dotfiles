@@ -1,1 +1,2 @@
+#Get wifi ip address
 alias wifi_ip='ipconfig getifaddr en0'
