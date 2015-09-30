@@ -11,3 +11,5 @@ alias gd='git diff'
 alias gl='git log --graph --stat'
 alias gpr='git pull --rebase'
 alias grh='git reset --hard HEAD'
+#Show last commit contents
+alias slc='gl -p -1'
