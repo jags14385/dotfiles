@@ -12,3 +12,6 @@ alias ls='ls -aFl'
 alias fs='foreman start'
 alias cg='cd ~/code/cg'
 alias .df='cd ~/code/dotfiles'
+
+#Versions
+alias sv='echo "Ruby: `ruby -v`" && echo "Node: `node -v`" && `java -version`'
