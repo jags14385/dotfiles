@@ -1,3 +1,2 @@
 alias wms='webdriver-manager start'
-alias npmg='npm install -g'
 alias wmu='webdriver-manager update'
