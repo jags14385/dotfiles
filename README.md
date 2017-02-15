@@ -9,10 +9,11 @@ Inspired & Copied from dotfiles.github.io
 
 Give the appropriate path where one can find the alias files
 
-for DOTFILE in `find ~/code/dotfiles/aliases`
-
+```
+for DOTFILE in `find ~/code/dotfiles/df`
 do
 
    [ -f $DOTFILE ] && source $DOTFILE
 
 done
+```
