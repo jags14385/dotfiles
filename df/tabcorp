@@ -4,3 +4,7 @@ alias qaw="cd ~/code/qa-wagerplayer"
 alias mb="source ~/moby_v2_env.sh"
 alias drun="export RUN_MODE=Direct"
 
+function tRun() {
+    mvn test -Dcucumber.options="$@"
+}
+
