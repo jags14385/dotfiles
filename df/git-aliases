@@ -18,5 +18,5 @@ alias slc='gl -p -1'
 
 function gDB() {
     git checkout master
-    git branch -D "$@" && git push origin :$@
+    git branch -D "$@" && git push origin :"$@"
 }
