@@ -15,3 +15,8 @@ alias grh='g reset --hard HEAD'
 
 #Show last commit contents
 alias slc='gl -p -1'
+
+function gDB() {
+    git checkout master
+    git branch -D "$@" && git push origin :$@
+}
