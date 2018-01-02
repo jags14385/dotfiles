@@ -9,6 +9,7 @@ alias bi='brew install'
 alias ls='ls -aFl'
 alias desk='cd ~'
 alias gcd='cd ~/code'
+alias rld='source ~/.bash_profile'
 
 #Repo
 alias fs='foreman start'
