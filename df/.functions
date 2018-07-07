@@ -8,3 +8,7 @@ function cpp() {
   gcam "$@"
   gpr && gp
 }
+
+function tRun() {
+    mvn test -Dcucumber.options="$@"
+}
