@@ -1,2 +1,5 @@
 #Get wifi ip address
 alias wifi_ip='ipconfig getifaddr en0'
+
+#Codenarc
+alias ct='./gradlew codenarcTest'
