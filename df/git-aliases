@@ -1,8 +1,10 @@
 alias g='git'
 alias gs='g status -sb'
-alias gc='g clone'
+alias gf='git fetch'
+alias gcl='g clone'
 alias gco='g checkout'
 alias ga='g add'
+alias gaa = ' git add -A'
 alias gb='g branch'
 alias gcm='g commit -m'
 alias gcam='g commit -am'
@@ -19,6 +21,10 @@ alias slc='gl -p -1'
 
 function gdb() {
     git checkout master
-    git branch -D "$@" 
+    git branch -D "$@"
     git push origin :"$@"
+}
+
+ function gfr() {
+  git reset @~ "$@" && git commit --amend --no-edit
 }
