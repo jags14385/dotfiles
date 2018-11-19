@@ -5,7 +5,7 @@ Inspired & Copied from dotfiles.github.io
 * Look at the code, to understand how it works
 
 * How to Use:
-    ** Copy the code to the .bash_profile /.bashrc
+    ** Copy the code to the .bash_profile or .bashrc
 
 Give the appropriate path where one can find the alias files
 
@@ -18,3 +18,6 @@ do
 done
 
 ```
+
+Installers Folder responsible for installation of the required packages and
+softwares.
