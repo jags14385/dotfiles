@@ -1,9 +1,8 @@
-alias aes='emulator -list-avds'
-
-
 # Exporting Paths
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$ANDROID_HOME/emulator
 export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
+
+alias ael='emulator -list-avds'
