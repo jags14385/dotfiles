@@ -4,5 +4,7 @@ alias wifi_ip='ipconfig getifaddr en0'
 #Codenarc
 alias ct='./gradlew codenarcTest'
 
-#Flutter
-export PATH=$PATH:$HOME/Downloads/flutter/bin
+#Flutter + #Cargo - Rust
+    
+export PATH=$PATH:$HOME/.cargo/bin:$HOME/Downloads/flutter/bin
+
