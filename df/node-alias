@@ -1,2 +1,0 @@
-alias wms='webdriver-manager start'
-alias wmu='webdriver-manager update'

@@ -16,7 +16,7 @@ alias gpr='g pull --rebase'
 alias grh='g reset --hard HEAD'
 alias gpb='g check-ref-format --branch @{-1} | xargs git checkout'
 
-#Show last commit contents
+# Show last commit contents
 alias slc='gl -p -1'
 
 function gdb() {
