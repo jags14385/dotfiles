@@ -1,0 +1,5 @@
+Host bitbucket.orgn.io
+    User git
+    IdentityFile ~/.ssh/bitbucket_key
+    StrictHostKeyChecking no
+    UserKnownHostsFile=/dev/null
