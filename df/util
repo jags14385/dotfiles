@@ -6,5 +6,4 @@ alias ct='./gradlew codenarcTest'
 
 #Flutter + #Cargo - Rust
     
-export PATH=$PATH:$HOME/.cargo/bin:$HOME/Downloads/flutter/bin
-
+export PATH=$PATH:$HOME/.cargo/bin:$HOME/code/sdk/flutter/bin
